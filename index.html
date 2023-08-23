@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--PHOSPHOR ICONS-->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Dynamic table with pagination</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <caption>
+                Business sales contact and prospect
+            </caption>
+            
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Job title</th>
+            </tr>
+        <tbody>
+            <tr class="data-row">
+                <td data-cell="id">1</td>
+                <td data-cell="name">James</td>
+                <td data-cell="email">james@gmail.com</td>
+                <td data-cell="job-title">Business Unit Analyst</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">2</td>
+                <td data-cell="name">John</td>
+                <td data-cell="email">john@gmail.com</td>
+                <td data-cell="job-title">Producer</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">3</td>
+                <td data-cell="name">Kaynes</td>
+                <td data-cell="email">kaynes@gmail.com</td>
+                <td data-cell="job-title">Developer</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">4</td>
+                <td data-cell="name">Sayne</td>
+                <td data-cell="email">sayne@gmail.com</td>
+                <td data-cell="job-title">Lawyer</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">5</td>
+                <td data-cell="name">Bob</td>
+                <td data-cell="email">bob@gmail.com</td>
+                <td data-cell="job-title">Baker</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">6</td>
+                <td data-cell="name">Bastian</td>
+                <td data-cell="email">bastian@gmail.com</td>
+                <td data-cell="job-title">Barber</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">7</td>
+                <td data-cell="name">Henry</td>
+                <td data-cell="email">henry@gmail.com</td>
+                <td data-cell="job-title">Cab driver</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">8</td>
+                <td data-cell="name">Soraya</td>
+                <td data-cell="email">soraya@gmail.com</td>
+                <td data-cell="job-title">Fisher</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">9</td>
+                <td data-cell="name">Fraunces</td>
+                <td data-cell="email">fraunces@gmail.com</td>
+                <td data-cell="job-title">Fisher</td>
+            </tr class="data-row">
+
+            <tr class="data-row">
+                <td data-cell="id">10</td>
+                <td data-cell="name">Paul</td>
+                <td data-cell="email">paul@gmail.com</td>
+                <td data-cell="job-title">Painter</td>
+            </tr class="data-row">
+            <tr class="data-row">
+                <td data-cell="id">11</td>
+                <td data-cell="name">Gautier</td>
+                <td data-cell="email">gautier@gmail.com</td>
+                <td data-cell="job-title">Garagist</td>
+            </tr class="data-row">
+        </tbody>
+        </table>
+        <nav>
+            <ul class="pagination-pages">
+            </ul>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
